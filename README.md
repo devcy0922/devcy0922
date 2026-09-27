@@ -1,13 +1,12 @@
 # devcy0922
 
-### 제품을 만들던 개발자에서, AI가 실제 시스템에서 동작하기 위한 기반까지 만들고 있습니다.
+만들고, 운영하고, 왜 그렇게 결정했는지 남깁니다.  
+화면부터 백엔드, 인프라까지 서비스의 라이프사이클을 다뤄왔습니다.
 
-10년차 풀스택 개발자입니다.
+실제 쓰이는 제품을 만들고 굴려온 경험을 바탕으로,  
+요즘은 **AI가 실제 시스템과 워크플로 안에서 안정적으로 동작하기 위한 실행 경계와 기반**을 만드는 데 집중하고 있습니다.
 
-프론트엔드와 백엔드에서 시작해 인프라와 플랫폼까지 영역을 넓혀왔고,  
-최근에는 **LLM · Agent · MCP · AI Infrastructure**를 실제 서비스에 연결하고 운영하는 문제에 집중하고 있습니다.
-
-특정 기술 자체보다 **문제를 정의하고, 경계를 나누고, 필요한 구성요소를 연결해 실제 동작하는 시스템을 만드는 것**을 좋아합니다.
+특정 기술을 맹신하기보다 문제를 정의하고, 경계를 나누고, 실패해도 복구 가능한 시스템을 만드는 것을 중요하게 생각합니다.
 
 ---
 
@@ -58,7 +57,8 @@ MCP · Tool Execution · Memory · Workflow · Approval · Runtime
 아이디어 정의 · UX · API · DB · Frontend · Deployment
 
 비공개 프로젝트는 저장소 수나 기능 목록보다  
-**어떤 문제를 정의했고, 어떤 구조를 선택했으며, 실제 운영에서 무엇을 바꿨는지**를 중심으로 발전시키고 있습니다.
+**어떤 문제를 정의했고, 어떤 구조를 선택했으며, 실제 운영에서 무엇을 바꿨는지**를 중심으로 발전시키고 있습니다.  
+자세한 아키텍처와 운영 사례는 [devcy0922.github.io/projects](https://devcy0922.github.io/projects/)에서 정리하고 있습니다.
 
 ---
 
@@ -69,6 +69,13 @@ MCP · Tool Execution · Memory · Workflow · Approval · Runtime
 
 > Public repositories are prototypes and experiments.  
 > Production-oriented work is primarily developed in private repositories.
+
+### [CoexistGate](https://github.com/devcy0922/coexistgate)
+
+Cross-artifact 릴리스 및 롤백 안전성 검증 엔진.  
+스키마 변경과 API 배포가 다운타임 없이 공존 가능한지 정적 분석과 규칙으로 판정합니다.
+
+`Go` `Release Safety` `Zero Downtime` `CI/CD`
 
 ### [AegisLLM](https://github.com/devcy0922/aegis-llm)
 
@@ -127,3 +134,8 @@ LLM을 실제 사용자 경험으로 연결한 제품 실험입니다.
 **실제로 실행해보고 실패하면서 바뀐 설계**를 더 신뢰합니다.
 
 > **Build something that runs. Then find out why it shouldn't.**
+
+---
+
+📝 기술 판단과 시스템 운영 기록은 **[devcy0922.github.io](https://devcy0922.github.io)**에 남기고 있습니다.
+
